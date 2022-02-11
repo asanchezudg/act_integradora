@@ -1,11 +1,11 @@
-import logo from './resources/Santander-Logo.png';
-import './styles.css';
+import logo from '../resources/Santander-Logo.png';
+import '../styles.css';
 
-const EMAIL = () => {
+const PUSH = () => {
     return (
         <div>
             <img src={logo} className="App-logo" alt="logo" />
-            <h1>EMAIL</h1>
+            <h1>PUSH</h1>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, modi!
             </p>
@@ -13,4 +13,4 @@ const EMAIL = () => {
     );
 };
 
-export default EMAIL;
+export default PUSH;

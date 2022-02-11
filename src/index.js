@@ -1,9 +1,9 @@
 import { render } from "react-dom";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import App from "./App";
-import EMAIL from "./EMAIL";
-import SMS from "./SMS";
-import PUSH from "./PUSH";
+import EMAIL from "./pages/EMAIL";
+import SMS from "./pages/SMS";
+import PUSH from "./pages/PUSH";
 
 render(
     <BrowserRouter>

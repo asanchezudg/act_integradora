@@ -1,5 +1,5 @@
-import logo from './resources/Santander-Logo.png';
-import './styles.css';
+import logo from '../resources/Santander-Logo.png';
+import '../styles.css';
 import {Link} from "react-router-dom";
 
 const SMS = () => {
