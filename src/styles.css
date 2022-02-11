@@ -33,19 +33,21 @@ h1,h2, Link {
 button{
     color:red;
     background-color: white;
-    width: 300px;
-    height: 100px;
-    font-family: Arial, Helvetica, Verdana;
+    width: 200px;
+    height: 50px;
+    font-family: Arial;
     font-size: 15px;
     border-radius: 15px;
     border: rgba(236,0,0,255);
 }
-Item{
-    color:red;
 
-}
 
 img.App-logo{
     width: 500px;
+    height: 200px;
+}
+
+img.App-logo-email, img.App-logo-sms, img.App-logo-push{
+    width: 200px;
     height: 200px;
 }
