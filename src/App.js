@@ -1,24 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
-
+import { Link } from "react-router-dom";
+import logo from './resources/Santander-Logo.png';
+import './styles.css';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+
+      <div className="App">
+
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+        <h1>PROYECTO II - ACTIVIDAD INTEGRADORA</h1>
+        <h2>
+          GESTOR DE NOTIFICACIONES SANTANDER
+        </h2>
+        <br />
+        <Link to="/SMS">
+          <button type="button">
+            SMS
+          </button>
+        </Link><br/><br/>
+        <Link to="/EMAIL">
+          <button type="button">
+            EMAIL
+          </button>
+        </Link><br/><br/>
+        <Link to="/PUSH">
+          <button type="button">
+            PUSH
+          </button>
+        </Link>
+      </div>
   );
 }
 
